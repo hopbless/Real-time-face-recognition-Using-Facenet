@@ -8,7 +8,7 @@ from sklearn.preprocessing import Normalizer
 from tensorflow.keras.models import load_model
 
 ######pathsandvairables#########
-face_data = 'Faces/'
+face_data = 'images/'
 required_shape = (160,160)
 face_encoder = InceptionResNetV2()
 path = "facenet_keras_weights.h5"
